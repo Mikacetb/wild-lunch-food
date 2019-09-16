@@ -1,0 +1,10 @@
+.nav__list{
+    display:none;
+    left: -999em;
+    transition:ease 0.3s;
+}
+.nav__list--active{
+    display: block;
+    left: 100px;
+    transition:ease 0.3s;
+}
