@@ -28,8 +28,9 @@ header nav{
     margin-top: 17px;
     background-color: rgb(121, 88, 88);
     transform: translate(0, -50%,-50%);
-    height: 95vh;
-    width: 25vw;
+    height: auto;
+    padding: 50px;
+    border-bottom-left-radius: 10px;
 }
 .nav__li{
     font-size: 2em;
@@ -41,7 +42,7 @@ header nav{
 .nav__list--active{
     right: -25px;
     visibility: visible;
-    transition:ease 0.5s;
+    transition:ease 0.1s;
 }
 @media (min-width:992px){
     
