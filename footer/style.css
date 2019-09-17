@@ -1,0 +1,26 @@
+footer{
+    padding: auto;
+    text-align: center;
+    background-color: #293133;
+}
+footer ul li a{
+    color: #EC6D6A;
+    text-decoration: none;
+}
+footer ul li{
+    margin-left:0;
+}
+footer ul{
+    list-style: none;
+    padding:1em 0 1em 0;
+}
+@media screen and (min-width:992px){
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer ul li{
+        padding: 0.5em;
+    }
+}
