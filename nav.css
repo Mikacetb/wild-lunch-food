@@ -12,21 +12,24 @@ header nav{
     flex-direction: column;
     background-color: transparent;
     border:none;
+    z-index: 1;
 }
 .nav__burger span{
     border: solid 3px black;
     width: 25px;
     margin: 3px;
+    z-index:0;
 }
 .nav__list{
     position: absolute;
-    display:none;
-    transition:ease 0.3s;
-    margin-top: 15px;
-    right:-25px;
+    visibility: hidden;
+    right: -999em;
+    transition:ease 0.1s;
+    margin-top: 17px;
     background-color: rgb(121, 88, 88);
     transform: translate(0, -50%,-50%);
-    width: 100vw;
+    height: 95vh;
+    width: 25vw;
 }
 .nav__li{
     font-size: 2em;
@@ -36,8 +39,9 @@ header nav{
     color:#EC6D6A;
 }
 .nav__list--active{
-    display: block;
-    transition:ease 0.3s;
+    right: -25px;
+    visibility: visible;
+    transition:ease 0.5s;
 }
 @media (min-width:992px){
     
