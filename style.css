@@ -37,7 +37,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     font-size: 1.5em;
     margin: 25px;
 }
-
 @media (min-width:992px){
     .dej-ent-forms{
         flex-direction: row;
