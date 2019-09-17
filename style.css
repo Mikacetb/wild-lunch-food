@@ -8,54 +8,51 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 body{
     overflow: hidden;
 }
-.dej-ent-forms{
-    display:flex;
-    flex-direction: column;
+
+
+.titre-form
+{
+    color: #ec6d6a;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.dej-ent-title{
-    text-align: center;
-    font-size: 2em;
-    color:#EC6D6A;
-    font-weight: 700;
-    font-family: 'Lobster';
-    padding: 25px;
-    background-color: #293133;
+
+.contact
+{
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
     margin-bottom: 50px;
 }
-.dej-ent-title span{
-    margin: auto;
-    font-size: 0.8em;
+.form-input
+{
+    border: none;
+    border-bottom:solid 1px #293133;
+	font-size: 15px;
+    padding: 10px;
+	width: 100%;
+    color:#ec6d6a;
+    margin-bottom: 20px;
+    background-color: rgba(41, 49, 51,.05);
 }
-.dej-ent-form{
-    background-color: rgb(204, 200, 200);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+.send
+{
+    width: 70px;
+    padding: 10px;
+    border: none;
+    margin-left: auto;
+
 }
-.dej-ent-form-title{
-    text-align: center;
-    font-size: 2em;
-    color:#EC6D6A;
-    margin: 15px;
-}
-.dej-ent-form-desc{
-    text-align: center;
-    font-size: 1.5em;
-    margin: 25px;
-}
-@media (min-width:992px){
-    .dej-ent-forms{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .dej-ent-form{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .dej-ent-form-desc{
-        font-size: 1.7em;
-        margin: 50px;
+@media (max-width:992px){
+    form{
+        width: 75%;
     }
 }
