@@ -4,12 +4,11 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
     }
-body{
-    font-family: Lobster;
-}
+
 h2{
     text-align: start;
     color: #EC6D6A;
+    font-family: Lobster;
     background-color: #293133;
     box-shadow: 5px 5px 15px #293133;
     margin:0;
@@ -18,6 +17,7 @@ h2{
 }
 h3{
     background-color: #EC6D6A;
+    font-family: Lobster;
     border-radius: 8px;
     box-shadow: 4px 4px 12px #293133;
     padding-left: 2em;
@@ -40,6 +40,7 @@ article {
 }
 article div p{
     margin-bottom: 2em;
+    font-family: Roboto;
 }
 article a{
     color: black;
