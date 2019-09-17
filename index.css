@@ -15,14 +15,9 @@ hr {
     background-color: #EC6D6A;
 
 }
-footer {
-    background-color: #293133;
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.first-h1{
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .titre {
     text-align: center;
@@ -30,6 +25,7 @@ footer {
     border-radius: 8px;
     box-shadow: 4px 4px 12px #293133;
     margin-bottom: 2rem;
+    
 }
 /******************* test2 *************/
 
@@ -51,7 +47,7 @@ footer {
 .descriptif-repas {
     width: 100%;
     display: flex;
-    margin-top : 4%;
+    margin-top: 4%;
     margin-bottom: 4%;
     flex-direction: column;
     justify-content: space-around;
@@ -63,8 +59,10 @@ footer {
     flex-direction: column;
     width: 100%;
     height: auto;
-
+    padding-left: 2%;
+    padding-right: 2%;
 }
+
 @media only screen and (min-width: 961px) {
     .container-repas {
         display: flex;
@@ -77,4 +75,5 @@ footer {
         text-align: center;
         margin: 1%;
     }
+
 }
