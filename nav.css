@@ -24,13 +24,13 @@ header nav{
     transition:ease 0.3s;
     margin-top: 15px;
     right:-25px;
-    background-color: #fff;
+    background-color: rgb(121, 88, 88);
     transform: translate(0, -50%,-50%);
     width: 100vw;
 }
 .nav__li{
     font-size: 2em;
-    width: 100%;
+    width: auto;
     text-align: center;
     margin: 25px;
     color:#EC6D6A;
