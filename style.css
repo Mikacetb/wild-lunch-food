@@ -57,6 +57,7 @@ hr{
     width:50%;
     margin: auto;
     box-shadow:3px 3px 8px #293133;
+    border-radius: 8px;
 }
 @media screen and (min-width:992px){
     h2{
