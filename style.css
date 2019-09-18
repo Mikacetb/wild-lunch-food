@@ -4,10 +4,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     font-family: "Lobster";
 }
 body{
-    /* width: 100vw !important; */
+    overflow-x: hidden;
 }
-header{
-    overflow: hidden;
+.header{
     width: 100%;
 }
 .dej-ent-forms{

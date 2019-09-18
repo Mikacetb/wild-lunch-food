@@ -1,7 +1,8 @@
-header{
+.header{
     height:65px;
     background-color: #293133;
     border-bottom: solid 2px #EC6D6A;
+    overflow-x: hidden;
 }
 header nav{
     position: absolute;
@@ -23,15 +24,16 @@ header nav{
 }
 .nav__list{
     position: absolute;
-    animation: slideout 0.5s forwards;
     margin-top: 17px;
     background-color: #293133;
     font-weight: 400;
-    transform: translate(0, -50%,-50%);
+    transform: translateX(100%);
+    right: -25px;
     height: auto;
     width:100vw;
     border-bottom: solid 2px #EC6D6A;
     border-left: solid 2px #EC6D6A;
+    transition: transform ease 0.3s;
 }
 .nav__li{
     font-size: 2em;
@@ -42,25 +44,7 @@ header nav{
     color:#EC6D6A;
 }
 .nav__list--active{
-    animation: slidein 0.5s forwards;
-    display:block;
-}
-@keyframes slidein {
-    from {
-      right: -20em;
-    }
-  
-    to {
-      right: -25px;
-    }
-  }
-@keyframes slideout {
-  from {
-    right:-25px;
-  }
-  to {
-    right: -40em;
-  }
+  transform: translateX(0);
 }
 @media (min-width:992px){
     .nav__list{
