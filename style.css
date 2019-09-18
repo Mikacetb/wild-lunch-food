@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     box-sizing: border-box;
   }
@@ -60,7 +61,58 @@ hr{
     box-shadow:3px 3px 8px #293133;
     border-radius: 8px;
 }
+body{
+    overflow: hidden;
+}
+.dej-ent-forms{
+    display:flex;
+    flex-direction: column;
+}
+.dej-ent-title{
+    text-align: center;
+    font-size: 2em;
+    color:#EC6D6A;
+    font-weight: 700;
+    padding: 25px;
+    background-color: #293133;
+    margin-bottom: 50px;
+}
+.dej-ent-title span{
+    margin: auto;
+    font-size: 0.8em;
+}
+.dej-ent-form{
+    background-color: rgb(204, 200, 200);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.dej-ent-form-title{
+    text-align: center;
+    font-size: 2em;
+    color:#EC6D6A;
+    margin: 15px;
+}
+.dej-ent-form-desc{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 25px;
+}
 @media screen and (min-width:992px){
+    .dej-ent-forms{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .dej-ent-form{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .dej-ent-form-desc{
+        font-size: 1.7em;
+        margin: 50px;
+    }
     h2{
         text-align: center;
     }

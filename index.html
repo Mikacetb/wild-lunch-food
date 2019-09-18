@@ -6,10 +6,29 @@
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
         <title>Wild Lunch Food</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+        
     </head>
     <body>
+        <section class="dej-ent">
+            <p class="dej-ent-title">Nos formules déjeuner Pro<br><span>( en livraison )</span></p>
+            <div class="dej-ent-forms">
+                <div class="dej-ent-form">
+                    <p class="dej-ent-form-title">Formule à 13.5€</p>
+                    <p class="dej-ent-form-desc">Entrée</p>
+                    <p class="dej-ent-form-desc">Plat</p>
+                    <p class="dej-ent-form-desc">Dessert</p>
+                </div>
+                <div class="dej-ent-form">
+                        <p class="dej-ent-form-title">Formule à 15€</p>
+                        <p class="dej-ent-form-desc">Entrée</p>
+                        <p class="dej-ent-form-desc">Plat</p>
+                        <p class="dej-ent-form-desc">Dessert</p>
+                </div>
+            </div>
+        </section>
         <section>
             <h2>Pour vos petits déjeuners d'entreprise, pensez à nos formules !</h2>
             <article>   
@@ -31,5 +50,15 @@
             </article>
         </section>
         <hr>
-    </body>
-</html>
+        <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    document.querySelector('.nav__burger').addEventListener('click', (e) => {
+                        const $burger = e.currentTarget;
+                        const $list = $burger.parentElement.querySelector('.nav__list');
+                        $burger.classList.toggle('nav__burger--active');
+                        $list.classList.toggle('nav__list--active');
+                    });
+                })
+        </script>   
+        </body>
+    </html>
