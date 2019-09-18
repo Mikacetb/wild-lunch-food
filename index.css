@@ -16,15 +16,17 @@ hr {
 
 }
 .first-h1{
-    padding-left: 2%;
-    padding-right: 2%;
+   
 }
 .titre {
     text-align: center;
-    background-color: #EC6D6A;
-    border-radius: 8px;
-    box-shadow: 4px 4px 12px #293133;
-    margin-bottom: 2rem;
+    background-color: #293133;
+    color: #EC6D6A;
+    font-size: 2em;
+    padding: 25px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
     
 }
 /******************* test2 *************/
@@ -67,14 +69,30 @@ hr {
 @media only screen and (min-width: 961px) {
     .container-repas {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .test2 {
         display: flex;
         flex-direction: column;
         height: 100%;
-        width: 50%;
+        width:45%;
         text-align: center;
-        margin: 1%;
+        margin: 2%;
+
+    }
+    .image-repas {
+        width: 100%;
+  
+    }
+    .image-repas img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #293133;
+   
     }
 
 }
