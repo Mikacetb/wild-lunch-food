@@ -37,9 +37,10 @@ hr {
 }
 .image-repas {
     width: 100%;
+    text-align: center;
 }
 .image-repas img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #293133;
@@ -59,8 +60,8 @@ hr {
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 @media only screen and (min-width: 961px) {
