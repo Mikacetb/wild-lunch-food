@@ -42,12 +42,17 @@
             </section>
             <footer>
                     <script>
+                            function dnone(){
+                                document.querySelector('.nav__list').style.display='none';
+                                document.querySelector('.nav__list--active').style.display='block';
+                            };
                             document.addEventListener('DOMContentLoaded', () => {
                                 document.querySelector('.nav__burger').addEventListener('click', (e) => {
                                     const $burger = e.currentTarget;
                                     const $list = $burger.parentElement.querySelector('.nav__list');
                                     $burger.classList.toggle('nav__burger--active');
                                     $list.classList.toggle('nav__list--active');
+                                    setTimeout(dnone,300);
                                 });
                             })
                     </script>

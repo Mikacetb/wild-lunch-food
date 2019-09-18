@@ -24,7 +24,6 @@ header nav{
 .nav__list{
     position: absolute;
     animation: slideout 0.5s forwards;
-    visibility: hidden;
     margin-top: 17px;
     background-color: #293133;
     font-weight: 400;
@@ -43,9 +42,8 @@ header nav{
     color:#EC6D6A;
 }
 .nav__list--active{
-    visibility: visible;
-    display:block;
     animation: slidein 0.5s forwards;
+    display:block;
 }
 @keyframes slidein {
     from {
@@ -58,11 +56,10 @@ header nav{
   }
 @keyframes slideout {
   from {
-    right: -25px;
+    right:-25px;
   }
   to {
-    right: -50em;
-    display:none;
+    right: -40em;
   }
 }
 @media (min-width:992px){
