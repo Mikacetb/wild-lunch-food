@@ -1,3 +1,4 @@
+
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 @font-face{
@@ -57,5 +58,139 @@ body{
     .dej-ent-form-desc{
         font-size: 1.7em;
         margin: 50px;
+    }
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+h2{
+    text-align: start;
+    color: #EC6D6A;
+    font-family: Lobster;
+    background-color: #293133;
+    box-shadow: 5px 5px 15px #293133;
+    margin:0;
+    padding: 1em;
+    border-radius: 10px;
+}
+h3{
+    background-color: #EC6D6A;
+    font-family: Lobster;
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px #293133;
+    padding-left: 2em;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    max-width:100%;
+    background-color: white;
+    color: black;
+    text-align: justify;
+    margin: auto;
+    padding: 5%;
+}
+.petitdej{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+article div p{
+    margin-bottom: 2em;
+    font-family: Roboto;
+}
+article a{
+    color: black;
+}
+article div img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #293133;
+    width: 100%;
+    max-width: 300px;
+    margin:auto;
+}
+hr{
+    padding: 0.5%;
+    background-color: #EC6D6A;
+    width:50%;
+    margin: auto;
+    box-shadow:3px 3px 8px #293133;
+    border-radius: 8px;
+}
+.dej-ent-forms{
+    display:flex;
+    flex-direction: column;
+}
+.dej-ent-title{
+    text-align: center;
+    font-size: 2em;
+    color:#EC6D6A;
+    font-weight: 700;
+    padding: 25px;
+    background-color: #293133;
+    margin-bottom: 50px;
+}
+.dej-ent-title span{
+    margin: auto;
+    font-size: 0.8em;
+}
+.dej-ent-form{
+    background-color: rgb(204, 200, 200);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.dej-ent-form-title{
+    text-align: center;
+    font-size: 2em;
+    color:#EC6D6A;
+    margin: 15px;
+}
+.dej-ent-form-desc{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 25px;
+}
+@media screen and (min-width:992px){
+    .dej-ent-forms{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .dej-ent-form{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .dej-ent-form-desc{
+        font-size: 1.7em;
+        margin: 50px;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        padding: 0;
+    }
+    article{
+        display: flex;
+        flex-direction: row;
+        }
+    .petitdej{
+        width:80%;
+        margin-right:5%;
+    }
+    article div p{
+        padding:5%;
+        text-align: center;
+    }
+    article img{
+        width:100%;
+        height: auto;
     }
 }

@@ -14,7 +14,6 @@ header nav{
     flex-direction: column;
     background-color: transparent;
     border:none;
-    z-index: 1;
 }
 .nav__burger span{
     border: solid 3px #EC6D6A;
@@ -34,6 +33,7 @@ header nav{
     border-bottom: solid 2px #EC6D6A;
     border-left: solid 2px #EC6D6A;
     transition: transform ease 0.3s;
+    z-index:2;
 }
 .nav__li{
     font-size: 2em;
