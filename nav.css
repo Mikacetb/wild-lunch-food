@@ -24,7 +24,7 @@ header nav{
 .nav__list{
     position: absolute;
     visibility: hidden;
-    right: -999em;
+    right: -20em;
     transition:ease 0.1s;
     margin-top: 17px;
     background-color: #293133;
