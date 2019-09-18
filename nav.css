@@ -23,7 +23,7 @@ header nav{
 }
 .nav__list{
     position: absolute;
-    margin-top: 17px;
+    margin-top: 15px;
     background-color: #293133;
     font-weight: 400;
     transform: translateX(100%);
