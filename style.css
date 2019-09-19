@@ -31,8 +31,9 @@ body{
 }
 .dej-ent-form{
     background-color: rgba(41, 49, 51,0.15);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border:solid 2px #EC6D6A;
     margin:auto;
     margin-bottom: 50px;
     width: 80%;
@@ -41,8 +42,8 @@ body{
     text-align: center;
     font-size: 2em;
     line-height: 1.25;
-    color:#EC6D6A;
-    background-color: #293133;
+    color:#293133;
+    background-color: #EC6D6A;
     padding: 25px;
     padding-left: 50px;
     padding-right: 50px;
