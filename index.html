@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="remy.css" type="text/css">
+            <link rel="stylesheet" href="nav.css" type="text/css">
+            <link rel="stylesheet" href="index.css">
+            <title>Business Is Business</title>
+        </head>
+        <body>
+            <header class="header">
+                    <nav>
+                        <button class="nav__burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                            <ul class="nav__list">
+                                <p class="nav__li">Repas du midi</p>
+                                <p class="nav__li">Repas pour les Pro</p>
+                                <p class="nav__li">Contact</p>
+                            </ul>
+                    </nav>
+            </header>
+            <section>
+
+                    <div class="first-h1">
+                        <h1 class="titre">Repas du midi</h1>
+                    </div>
+                    <div class="container-repas">
+        
+                        <div class="test2">
+        
+                            <div class="image-repas">
+                                <p>Burger Maison</p>
+                                <img src="burger.jpg" alt="">
+                            </div>
+                            <div class="descriptif-repas">
+                                <span>14 €</span>
+                                <p>Burger + frite</p>
+                            </div>
+                        </div>
+                        <div class="test2">
+                            <div class="image-repas">
+                                <p>Carbonara</p>
+                                <img src="carbonara.jpg" alt="">
+                            </div>
+                            <div class="descriptif-repas">
+        
+                                <span>8 €</span>
+                                <p>Pate + lardon + créme fraiche
+                                </p>
+                            </div>
+        
+                        </div>
+                        <div class="test2">
+                            <div class="image-repas">
+                                <p>Salade de la mer</p>
+                                <img src="salade-saumon.jpg" alt="">
+                            </div>
+                            <div class="descriptif-repas">
+        
+                                <span>10 €</span>
+                                <p>Salade + saumon + feta
+                                </p>
+                            </div>
+        
+                        </div>
+                        <div class="test2">
+                            <div class="image-repas">
+                                <p>Pizza reine</p>
+                                <img src="pizza.jpg" alt="">
+                            </div>
+                            <div class="descriptif-repas">
+        
+                                <span>14 €</span>
+                                <p>Lardon + champigon + créme fraiche
+                                </p>
+                            </div>
+        
+                        </div>
+                        <div class="test2">
+                            <div class="image-repas">
+                                <p>Escalope milanaise</p>
+                                <img src="escalope-milanaise.jpg" alt="">
+                            </div>
+                            <div class="descriptif-repas">
+        
+                                <span>14 €</span>
+                                <p>Burger + frite + salade
+                                </p>
+                            </div>
+        
+                        </div>
+        
+                        <hr>
+                    </section>
+            <section class="dej-ent">
+                <p class="dej-ent-title">Nos formules déjeuner Pro<br><span>( en livraison )</span></p>
+                <div class="dej-ent-forms">
+                    <div class="dej-ent-form">
+                        <p class="dej-ent-form-title">Formule à 13.5€</p>
+                        <p class="dej-ent-form-desc">Entrée</p>
+                        <p class="dej-ent-form-desc">Plat</p>
+                        <p class="dej-ent-form-desc">Dessert</p>
+                    </div>
+                    <div class="dej-ent-form">
+                            <p class="dej-ent-form-title">Formule à 15€</p>
+                            <p class="dej-ent-form-desc">Entrée</p>
+                            <p class="dej-ent-form-desc">Plat</p>
+                            <p class="dej-ent-form-desc">Dessert</p>
+                    </div>
+                    <div class="dej-ent-form">
+                        <p class="dej-ent-form-title">Formule à 18€</p>
+                        <p class="dej-ent-form-desc">Entrée</p>
+                        <p class="dej-ent-form-desc">Plat</p>
+                        <p class="dej-ent-form-desc">Dessert</p>
+                </div>
+                </div>
+            </section>
+            <footer>
+                    <script>
+                            document.addEventListener('DOMContentLoaded', () => {
+                                document.querySelector('.nav__burger').addEventListener('click', (e) => {
+                                    const $burger = e.currentTarget;
+                                    const $list = $burger.parentElement.querySelector('.nav__list');
+                                    $burger.classList.toggle('nav__burger--active');
+                                    $list.classList.toggle('nav__list--active');
+                                });
+                            })
+                    </script>
+            </footer>
+        </body>
+    </html>
