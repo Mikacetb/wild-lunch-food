@@ -4,28 +4,28 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
     }
-
+body{
+    font-family: 'lobster Two';
+    font-size: 1.2em;   
+}   
 h2{
     text-align: start;
     color: #EC6D6A;
     font-family: Lobster;
     background-color: #293133;
     text-align: center;
-    box-shadow: 5px 5px 15px #293133;
-    margin:0 0 1em 0;
+    margin:0 0 0.5em 0;
     padding: 1em;
-    border-radius: 10px;
 }
 h3{
     background-color: #EC6D6A;
-    width:90%;
+    width:100%;
     text-align: center;
     font-family: Lobster;
-    border-radius: 8px;
-    box-shadow: 4px 4px 12px #293133;
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-bottom: 2em;
+    font-size: 1.5em;
+    padding: 0;
+    margin-bottom: 1.5em;
+    border-radius: 10px 10px 0px 0px;
 }
 article {
     display: flex;
@@ -44,88 +44,59 @@ article {
 .petitdej{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
+    border-radius: 5px 5px 0px 0px;
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 25px;
     padding-bottom: 25px;
-    margin: 0 5% 2em 5%;
+    margin-top:none;
+    background-image: linear-gradient( white, #777777);
 }
-.dej2{
+.equipe{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin: 0 5% 2em 5%;
+    margin: 0 0 2em 0;
 }
-article div p{
+.presentation div p{
     width: 80%;
-    margin: 0 5% 1em 5%;
+    margin: 0 5% 2em 5%;
     padding-left:5%;
     padding-right: 5%;
-    font-family: Roboto;
 }
-article a{
-    color: black;
+.type_formule_petit_dej div p{
+    width: 80%;
+    margin: 0 5% 2em 5%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 1em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color:#EC6D6A;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color:#293133;
 }
 article div img{
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px #293133;
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px #acb2b4;
     width 80%;
     margin:auto;
     max-width: 300px;
     margin: 0 10% 2em 10%;
-}
-hr{
-    padding: 0.5%;
-    background-color: #EC6D6A;
-    width:50%;
-    margin: auto;
-    box-shadow:3px 3px 8px #293133;
-    border-radius: 8px;
-}
-.dej-ent-forms{
-    display:flex;
-    flex-direction: column;
-}
-.dej-ent-title{
-    text-align: center;
-    font-size: 2em;
-    color:#EC6D6A;
-    font-weight: 700;
-    padding: 25px;
-    background-color: #293133;
-    margin-bottom: 50px;
-}
-.dej-ent-form{
-    background-color: rgb(204, 200, 200);
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px #293133;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin: 0 10% 2em 10%;
-}
-.dej-ent-form-title{
-    text-align: center;
-    font-size: 2em;
-    color:#EC6D6A;
-    margin: 15px;
-}
-.dej-ent-form-desc{
-    text-align: center;
-    font-size: 1.5em;
-    margin: 25px;
-}
-body{
-    font-family: lobster;   
-}    
+} 
 footer{
     padding: auto;
     text-align: center;
@@ -142,11 +113,6 @@ footer ul{
     list-style: none;
     padding:0.5em 0 0.5em 0;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 hr {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -158,50 +124,6 @@ hr {
     background-color: #EC6D6A;
 
 }
-.titre {
-    text-align: center;
-    background-color: #293133;
-    color: #EC6D6A;
-    font-size: 2em;
-    padding: 25px;
-    font-weight: 700;
-    margin-bottom: 50px;   
-}
-.test2 {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-}
-.image-repas {
-    width: 100%;
-    text-align: center;
-}
-.image-repas img {
-    width: 80%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px #293133;
-}
-.descriptif-repas {
-    width: 100%;
-    display: flex;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 130%;
-}
-.container-repas {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding-left: 4%;
-    padding-right: 4%;
-}
 section div img{
     width: 70%;
     height:auto;
@@ -210,67 +132,52 @@ section div{
     text-align: center;
 }
 @media screen and (min-width:992px){
-    .dej-ent-forms{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .dej-ent-form{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .dej-ent-form-desc{
-        font-size: 1.7em;
-        margin: 50px;
-    }
-    .container-repas {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .test2 {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width:45%;
-        text-align: center;
-        margin: 2%;
-
-    }
-    .image-repas {
-        width: 100%;
-  
-    }
-    .image-repas img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        box-shadow: 5px 5px 15px #293133;
-   
-    }
+    body{
+        font-family: 'lobster Two';
+        font-size: 1.5em;   
+    }  
     h2{
         text-align: center;
     }
     h3{
         text-align: center;
-        width:80%;
-        margin:auto;
-        padding: 0;
+        width:100%;
+        padding: 0px;
+        border-radius: 20px 20px 0px 0px;
     }
-    article{
+    .equipe {
+        width: 100%;
+    }
+    .equipe p{
+        width: 80%;
+        margin: auto;
+    }
+    .equipe img{
+        border-radius: 10px;
+        box-shadow: 3px 3px 9px #8a8e8f;
+        width 650%;
+        margin:auto;
+        max-width: 1000px;
+        margin: 0 10% 1em 10%;
+    }
+    .type_formule_petit_dej{
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 2em;
         }
     .petitdej{
         width:30%;
-        margin:auto;
-        align-items: center;
-        vertical-align: top;
+        text-align: center; 
+        background-image: linear-gradient( white, #777777);
     }
-    article div p{
-        padding:5%;
+    .type_formule_petit_dej p{
         text-align: center;
+    }
+    .type_formule_petit_dej img{
+        width:60%;
+        height:35%;
+        box-shadow:3px 3px #293133
     }
     article img{
         width:100%;
