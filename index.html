@@ -9,30 +9,14 @@
         <link
             href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="nav.css" type="text/css">
         <link rel="stylesheet" href="index.css" type="text/css">
         <title>Business Is Business</title>
     </head>
     <body>
-        <header class="header">
-            <nav>
-                <button class="nav__burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav__list">
-                    <p class="nav__li">Repas du midi</p>
-                    <p class="nav__li">Repas pour les Pro</p>
-                    <p class="nav__li">Contact</p>
-                </ul>
-            </nav>
-        </header>
         <section>
 
             <div class="first-h1">
-                <h1 class="titre">Repas du midi</h1>
+                <h1 class="titre">Déjeuner</h1>
             </div>
             <div class="container-repas">
 
@@ -99,83 +83,6 @@
             </section>
         </body>
         <hr>
-
-        <section class="dej-ent">
-            <p class="dej-ent-title">Nos formules déjeuner Pro<br>
-                <span>( en livraison )</span></p>
-            <div class="dej-ent-forms">
-                <div class="dej-ent-form">
-                    <p class="dej-ent-form-title">Formule à 13.5€</p>
-                    <p class="dej-ent-form-desc">Entrée</p>
-                    <p class="dej-ent-form-desc">Plat</p>
-                    <p class="dej-ent-form-desc">Dessert</p>
-                </div>
-                <div class="dej-ent-form">
-                    <p class="dej-ent-form-title">Formule à 15€</p>
-                    <p class="dej-ent-form-desc">Entrée</p>
-                    <p class="dej-ent-form-desc">Plat</p>
-                    <p class="dej-ent-form-desc">Dessert</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Pour vos petits déjeuners d'entreprise, pensez à nos formules !</h2>
-            <article>
-                <div class="petitdej">
-                    <h3>Formule Viennoiseries</h3>
-                    <p>Nos délicieuses mini viennoiseries, accompagnées de jus d'orange et de café
-                        ou thé, à partir de 2,90€ par personne. Pour plus d'informations,
-                        <a href="#ContactUs" title="Contact us">contactez-nous</a>!</p>
-                    <img
-                        src="https://www.oberweis.lu/var/www/storage/images/www/laptop/boutique-online/boulangerie/viennoiseries/viennoiseries/mini-viennoiserie/335328-38-fre-FR/mini-viennoiserie.jpg"
-                        alt="Nos Viennoiseries">
-                </div>
-                <div class="petitdej">
-                    <h3>Formule Mignardises</h3>
-                    <p>Nos succulentes mignardises vous égaieront les papilles dès le matin ! Elles
-                        sont accompagnées de café ou de thé, à partir de 3,90€ par personne. Pour plus
-                        d'informations,
-                        <a href="#ContactUs" title="Contact us">contactez-nous</a>!</p>
-                    <img
-                        src="https://www.davigel.fr/res/davigel/styles/product/public/media/2273208_720x720.jpg?itok=oKo-UMkg"
-                        alt="Nos Mignardises">
-                </div>
-                <div class="petitdej">
-                    <h3>Formule Mixte</h3>
-                    <p>Un savoureux mélange de mignardises et de mini viennoiseries à savourer avant
-                        une belle journée !A partir de 4,50€ par personne. Pour plus d'informations,
-                        <a href="#ContactUs" title="Contact us">contactez-nous</a>!</p>
-                    <img
-                        src="https://cdn.futura-sciences.com/buildsv6/images/wide1920/0/7/6/076c3fe209_117550_petit-dej-ideal.jpg"
-                        alt="Nos viennoiseries">
-                </div>
-            </article>
-        </section>
-        <hr>
-        <footer>
-            <script>
-                // function dnone(){
-                // document.querySelector('.nav__list').style.display='none';
-                // document.querySelector('.nav__list--active').style.display='block'; };
-                document.addEventListener('DOMContentLoaded', () => {
-                    document
-                        .querySelector('.nav__burger')
-                        .addEventListener('click', (e) => {
-                            const $burger = e.currentTarget;
-                            const $list = $burger
-                                .parentElement
-                                .querySelector('.nav__list');
-                            $burger
-                                .classList
-                                .toggle('nav__burger--active');
-                            $list
-                                .classList
-                                .toggle('nav__list--active');
-                            // setTimeout(dnone,300);
-                        });
-                })
-            </script>
-        </footer>
 
     </body>
 </html>
