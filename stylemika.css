@@ -124,11 +124,18 @@ hr {
     background-color: #EC6D6A;
 
 }
-section div img{
+#welcome div img{
     width: 70%;
     height:auto;
 }
-section div{
+#petit_dejeuner div img{
+    width: 70%;
+    height:auto;
+}
+#welcome div{
+    text-align: center;
+}
+#petit_dejeuner div{
     text-align: center;
 }
 @media screen and (min-width:992px){
