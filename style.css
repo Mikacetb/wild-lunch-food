@@ -30,30 +30,30 @@ body{
     font-size: 0.8em;
 }
 .dej-ent-form{
-    background-color: rgba(41, 49, 51,0.15);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border:solid 2px #EC6D6A;
     margin:auto;
     margin-bottom: 50px;
     width: 80%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: linear-gradient(to bottom, #ffffff, #f0ddf5, #f2b8d9, #f690a9, #ec6d6a);
 }
 .dej-ent-form-title{
     text-align: center;
     font-size: 2em;
     line-height: 1.25;
-    color:#293133;
-    background-color: #EC6D6A;
+    color:black;
     padding: 25px;
     padding-left: 50px;
     padding-right: 50px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    /* background-image: linear-gradient(to bottom, #ec6d6a, #f690a9, #f2b8d9, #f0ddf5, #ffffff); */
 }
 .dej-ent-form-desc{
     text-align: center;
     font-size: 1.5em;
-    margin: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 @media (min-width:992px){
     .dej-ent-forms{
@@ -61,10 +61,9 @@ body{
         justify-content: space-around;
     }
     .dej-ent-form{
-        width: 30%;
+        width: 25%;
     }
     .dej-ent-form-desc{
         font-size: 1.7em;
-        margin: 50px;
     }
 }
