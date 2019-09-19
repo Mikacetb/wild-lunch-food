@@ -1,5 +1,4 @@
 # Wild Lunch Food
-
 Bienvenue sur notre projet de BusinessIsBusiness 
 
 * Aimez nôtre projet
