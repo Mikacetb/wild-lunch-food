@@ -20,12 +20,11 @@ hr {
     text-align: center;
     background-color: #293133;
     color: #EC6D6A;
-    font-size: 2em;
+    font-size: 4em;
     padding: 25px;
     font-weight: 700;
     margin-bottom: 50px;
-    
-    
+
 }
 /******************* test2 *************/
 
@@ -44,6 +43,10 @@ hr {
     height: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #293133;
+}
+.image-repas p {
+    font-size: 3em;
+    margin-bottom: 2%;
 }
 .descriptif-repas {
     width: 100%;
@@ -76,24 +79,26 @@ hr {
         display: flex;
         flex-direction: column;
         height: 100%;
-        width:45%;
+        width: 45%;
         text-align: center;
         margin: 2%;
 
     }
     .image-repas {
         width: 100%;
-  
+    }
+    .image-repas p {
+        font-size: 3em;
+        margin-bottom: 2%;
     }
     .image-repas img {
-        width: 100%;
+        width: 70%;
         height: 100%;
         border-radius: 10px;
-        box-shadow: 5px 5px 15px #293133;   
+        box-shadow: 5px 5px 15px #293133;
     }
-    .descriptif-repas{
+    .descriptif-repas {
         font-size: 2em;
     }
-
 
 }
