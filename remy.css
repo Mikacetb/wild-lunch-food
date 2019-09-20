@@ -24,9 +24,7 @@ body{
     margin:auto;
     margin-bottom: 50px;
     width: 80%;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background-color: #EC6D6A;
+    background-image: linear-gradient( white, #777777);
 }
 .dej-ent-form-title{
     text-align: center;
@@ -36,7 +34,9 @@ body{
     padding: 25px;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #293133;
+    background-color: #EC6D6A;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .dej-ent-form-desc{
     text-align: center;

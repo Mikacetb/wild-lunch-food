@@ -16,7 +16,7 @@ h3{
     text-align: center;
     font-family: Lobster;
     font-size: 1.5em;
-    padding: 0;
+    padding: 25px;
     margin-bottom: 1.5em;
     border-radius: 10px 10px 0px 0px;
 }
@@ -129,17 +129,14 @@ hr {
 }
 @media screen and (min-width:992px){
     body{
-        font-family: 'lobster Two';
         font-size: 1.5em;   
     }
     h3{
-        text-align: center;
         width:100%;
-        padding: 0px;
         border-radius: 20px 20px 0px 0px;
     }
     .welcome-title{
-        top:100%;
+        top:80%;
         font-size: 3em;
         padding: 25px;
     }
