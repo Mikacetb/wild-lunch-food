@@ -1,9 +1,3 @@
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-    }
 body{
     font-family: 'lobster Two';
     font-size: 1.2em;   
@@ -155,7 +149,7 @@ section div{
     .equipe img{
         border-radius: 10px;
         box-shadow: 3px 3px 9px #8a8e8f;
-        width 650%;
+        width: 650%;
         margin:auto;
         max-width: 1000px;
         margin: 0 10% 1em 10%;
