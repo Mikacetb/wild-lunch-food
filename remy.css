@@ -9,6 +9,13 @@ body{
 .header{
     width: 100%;
 }
+.header-title{
+    font-size: 1em;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    color:#EC6D6A;
+}
 .dej-ent-forms{
     display:flex;
     flex-direction: column;
