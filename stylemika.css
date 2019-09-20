@@ -72,6 +72,12 @@ h3{
 }
 .petitdej{
     margin-top: 50px;
+    width:80%;
+    margin:auto;
+    margin-top: 50px;
+}
+.type_formule_petit_dej{
+    margin-bottom: 50px;
 }
 .type_formule_petit_dej div p{
     width: 80%;
