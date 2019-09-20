@@ -14,13 +14,12 @@ header nav{
     flex-direction: column;
     background-color: transparent;
     border:none;
-    z-index: 1;
+    z-index: 5;
 }
 .nav__burger span{
     border: solid 3px #EC6D6A;
     width: 28px;
     margin: 3px;
-    z-index:0;
 }
 .nav__burger span:nth-child(2){
     border: solid 3px #37b6e0;
