@@ -9,20 +9,11 @@ body{
 .header{
     width: 100%;
 }
-.dej-ent{
-    /* background-color: rgb(211, 206, 206); */
-}
 .dej-ent-forms{
     display:flex;
     flex-direction: column;
 }
 .dej-ent-title{
-    text-align: center;
-    font-size: 2em;
-    color:#ec6d6a;
-    font-weight: 700;
-    padding: 25px;
-    background-color: rgba(41, 49, 51,0.8);
     margin-bottom: 50px;
 }
 .dej-ent-title span{
@@ -35,7 +26,7 @@ body{
     width: 80%;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-image: radial-gradient(circle, #ec6d6a, #f38c89, #f7aaa8, #f8c8c7, #f6e5e5);
+    background-color: #EC6D6A;
 }
 .dej-ent-form-title{
     text-align: center;
@@ -45,9 +36,7 @@ body{
     padding: 25px;
     padding-left: 50px;
     padding-right: 50px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    /* background-image: linear-gradient(to bottom, #ec6d6a, #f690a9, #f2b8d9, #f0ddf5, #ffffff); */
+    background-color: #293133;
 }
 .dej-ent-form-desc{
     text-align: center;

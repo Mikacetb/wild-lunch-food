@@ -70,6 +70,9 @@ h3{
     padding-left:5%;
     padding-right: 5%;
 }
+.petitdej{
+    margin-top: 50px;
+}
 .type_formule_petit_dej div p{
     width: 80%;
     margin: 0 5% 2em 5%;
@@ -123,20 +126,6 @@ hr {
     margin-right: 25%;
     background-color: #EC6D6A;
 
-}
-#welcome div img{
-    width: 70%;
-    height:auto;
-}
-#petit_dejeuner div img{
-    width: 70%;
-    height:auto;
-}
-#welcome div{
-    text-align: center;
-}
-#petit_dejeuner div{
-    text-align: center;
 }
 @media screen and (min-width:992px){
     body{
