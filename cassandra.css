@@ -3,13 +3,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 @font-face{
     font-family: "Lobster";
 }
-
-
-body{
-    overflow: hidden;
-}
-
-
 .titre-form
 {
     color: #ec6d6a;
@@ -26,7 +19,7 @@ body{
     justify-content: space-around;
     
 }
-form{
+.formulaire{
     display: flex;
     flex-direction: column;
     width:50%;
@@ -43,6 +36,20 @@ form{
     margin-bottom: 20px;
     background-color: rgba(41, 49, 51,.05);
 }
+
+.form-textarea{
+    border: none;
+    border-bottom:solid 1px #293133;
+	font-size: 15px;
+    padding: 10px;
+	width: 100%;
+    color:#ec6d6a;
+    margin-bottom: 20px;
+    background-color: rgba(41, 49, 51,.05);
+    height: 90px;
+
+}
+
 .send
 {
     width: 70px;
