@@ -45,6 +45,10 @@ header nav{
     margin-bottom: 25px;
     color:#EC6D6A;
 }
+.nav__li a,.nav__li a:hover{
+    text-decoration: none;
+    color: inherit;
+}
 .nav__list--active{
   transform: translateX(0);
 }
