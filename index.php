@@ -1,24 +1,15 @@
+
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/d4f7a7ae94.js" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="css/nav.css" type="text/css">
-            <link rel="stylesheet" href="css/cassandra.css" type="text/css">
-            <link rel="stylesheet" href="css/remy.css" type="text/css">
-            <link rel="stylesheet" href="css/stylemika.css">
-            <link rel="stylesheet" href="css/index.css">
-            <title>Wild Lunch School</title>
-        </head>
+<html lang="en">
+    <?php
+    require'head.php';
+    ?>
         <body>
             <header class="header">
                     <p class="header-title">Bienvenue au Wild Lunch Food !</p>
-                    <nav>
+                                                                                                          <nav>
                         <button class="nav__burger">
-                            <span></span>
+                                                                  <span></span>
                             <span></span>
                             <span></span>
                         </button>
@@ -168,18 +159,10 @@
             
                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10802.832825929367!2d0.6644019999999999!3d47.3981259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1568730547138!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
             
-                </div>
-            <footer>
-                <ul>
-                    <li><a href="#contact" title="Contact us">Qui sommes-nous ?</a></li>
-                    <li><a href="#contact" title="Contact us">Où nous trouver ?</a></li>
-                    <li><a href="#contact" title="Contact us">Contactez-nous !</a></li>
-                </ul>
-                <ul>
-                    <li><a href="https://www.wildcodeschool.com/fr-FR" title="Contact us">Conditions générales d'utilisation</a></li>
-                    <li><a href="https://www.wildcodeschool.com/fr-FR" title="Contact us">Wild Code School 2019</a></li>
-                </ul>
-             </footer> 
+            </div>
+           <?php
+                include 'footer.php';
+            ?>
                     <script>
                             document.addEventListener('DOMContentLoaded', () => {
                                 document.querySelector('.nav__burger').addEventListener('click', (e) => {
@@ -193,3 +176,4 @@
 
         </body>
     </html>
+?>
