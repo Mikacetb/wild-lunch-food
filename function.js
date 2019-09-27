@@ -1,4 +1,5 @@
 //// Moving plate 
+
 let scroll = 0
 let barWidth = 0
 
@@ -17,9 +18,9 @@ document.addEventListener("scroll", function () {
     barWidth = scroll * ratio
     document.querySelector('.bar').style.width = barWidth + "px";
     if (barWidth <= 0) {
-        document.querySelector('.fa-hamburger').style.marginLeft = barWidth + "px";
+        document.querySelector('.fa-hamburger').style.marginLeft = barWidth+10 + "px";
     } else if (barWidth >= width - 25) {
-        document.querySelector('.fa-hamburger').style.marginLeft = barWidth - 35 + "px";
+        document.querySelector('.fa-hamburger').style.marginLeft = barWidth - 40 + "px";
     } else {
         document.querySelector('.fa-hamburger').style.marginLeft = barWidth - 15 + "px";
     }
